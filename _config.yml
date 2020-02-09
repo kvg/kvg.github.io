@@ -26,7 +26,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a research scientist in the Data Sciences Platform at the Broad Institute.  I run the <mark>Long Read Methods and Applications</mark> group which develops novel tools and applications for single molecule sequencing instruments.
 
-  Prior to this, I was a DPhil student (2011-2016) and post-doc (2016-2018) at the University of Oxford under the guidance of Gil McVean.  I worked on combining long read and short read data to improve de novo assembly.  I applied these methods to de novo mutation discovery in malaria experimental crosses.
+  Prior to this, I was a DPhil student (2011-2016) and post-doc (2016-2018) at the University of Oxford under the guidance of Prof. Gil McVean.  I worked on combining long read and short read data to improve de novo assembly.  I applied these methods to de novo mutation discovery in malaria experimental crosses.
 
 # Experience Section
 experience_title: Selected Publications
