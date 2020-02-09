@@ -9,7 +9,7 @@
   name: Corticall
   link: github.com/mcveanlab/cortexjdk
   github: github.com/mcveanlab/cortexjdk
-  quote: >
-    De novo mutation discovery via de novo assembly
+#  quote: >
+#    De novo mutation discovery via de novo assembly
   description: | # this will include new lines to allow paragraphs
     Corticall uses long read data on parents to improve de novo assemblies of short read data, and applies a recombination-aware alignment model to discover point, indel, and structural variants.  Corticall thus enables discovery of mutations in regions of the genome typically inaccessible to short reads alone.  It is part of the CortexJDK package which provides a Java API for the access and manipulation of Cortex/McCortex multi-color linked de Bruijn graphs.
