@@ -28,11 +28,11 @@ about_content: | # this will include new lines to allow paragraphs
 
   Prior to this, I was a DPhil student (2011-2016) and post-doc (2016-2018) at the University of Oxford under the guidance of Gil McVean.  I worked on combining long read and short read data to improve de novo assembly.  I applied these methods to de novo mutation discovery in malaria experimental crosses.
 
-# Projects Section
-# projects_title: Projects
-
 # Experience Section
 experience_title: Selected Publications
+
+# Projects Section
+# projects_title: Projects
 
 # Education Section
 # educaton_title: Education
