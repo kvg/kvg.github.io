@@ -6,6 +6,8 @@
   #  Pathogen de novo mutation discovery via de novo assembly
   description: |
 
+    <mark>A.M. Al'Khafaji, J.T. Smith, K.V. Garimella, M. Babadi</mark>, M. Sade-Feldman, M. Gatzen, S. Sarkizova, M.A. Schwartz, V. Popic, E.M. Blaum, A. Day, M. Costello, T. Bowers, S. Gabriel, E. Banks, A.A. Philippakis, G.M. Boland, P.C. Blainey, N. Hacohen, "High-throughput RNA isoform sequencing using programmable cDNA concatenation", bioRxiv 2021.10.01.462818; doi: https://doi.org/10.1101/2021.10.01.462818
+
     <mark>K.V. Garimella</mark>, Z. Iqbal, M.A. Krause, S. Campino, M. Kekre, E. Drury, D. Kwiatkowski, J.M. Sá, T.E. Wellems, G. McVean, “Detection of simple and complex de novo mutations with multiple reference sequences.” Genome research, 30(8), pp.1154-1169., Aug. 2020
 
     <mark>I. Turner, K. V. Garimella</mark>, Z. Iqbal, and G. McVean, “Integrating long-range connectivity information into de Bruijn graphs.,” Bioinformatics, vol. 34, no. 15, pp. 2556–2565, Aug. 2018.
