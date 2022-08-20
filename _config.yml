@@ -56,13 +56,19 @@ content:
   - title: Software
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
+        title: Longbow
+        link: https://broadinstitute.github.io/longbow/
+        description: | # this will include new lines to allow paragraphs
+          Longbow is a processing toolkit for Multiplexed ArrayS sequencing (MAS-seq) long read data. It is primarily used to annotate adapter and transcript boundaries within multiplexed long reads (termed “arrays”), segment annotated reads, filter out malformed arrays, and prepare output for use with other downstream tools.
+
+      - layout: left
         title: Long read pipelines
         link: github.com/broadinstitute/long-read-pipelines
         description: | # this will include new lines to allow paragraphs
           A set of cloud-based workflows for processing (mostly human) whole genome and transcriptome long read data.  Includes GPU-enabled basecalling, error correction, alignment, variant calling, de novo assembly, etc.  Constantly in-process and improving.
 
-      - layout: top-middle
+      - layout: left
         title: Corticall
         link: github.com/mcveanlab/cortexjdk
         description: | # this will include new lines to allow paragraphs
