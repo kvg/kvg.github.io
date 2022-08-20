@@ -71,7 +71,7 @@ content:
   - title: Selected publications
     layout: list
     content:
-      - layout: left
+      - layout: text
         description: |
           <mark>A.M. Al'Khafaji, J.T. Smith, K.V. Garimella, M. Babadi</mark>, M. Sade-Feldman, M. Gatzen, S. Sarkizova, M.A. Schwartz, V. Popic, E.M. Blaum, A. Day, M. Costello, T. Bowers, S. Gabriel, E. Banks, A.A. Philippakis, G.M. Boland, P.C. Blainey, N. Hacohen, "High-throughput RNA isoform sequencing using programmable cDNA concatenation", bioRxiv 2021.10.01.462818; doi: https://doi.org/10.1101/2021.10.01.462818
 
