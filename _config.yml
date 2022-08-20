@@ -2,23 +2,47 @@
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: Kiran V Garimella
-title: Associate Director for Genomic Medicine, Data Sciences Platform, Broad Institute of MIT and Harvard
+title: Director of Computational Biology, Data Sciences Platform, Broad Institute of MIT and Harvard
 email: kiran@broadinstitute.org
-#website: www.github.com/sproogen/resume-theme
+website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
 twitter_username: KiranGarimella
-github_username:  kvg
+github_username:  sproogen
+# stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: chillwildlife
+# instagram_username: jameswgrant
 linkedin_username: kiran-garimella-02aa8529
+# xing_username: jekyll
 # pinterest_username: jekyll
-#youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
+orcid_username: 0000-0002-6212-5736
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -26,28 +50,57 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a research scientist in the Data Sciences Platform at the Broad Institute.  I run the <mark>Long Read Methods and Applications</mark> group which develops novel tools and applications for single molecule sequencing instruments.
 
-  Prior to this, I was a DPhil student (2011-2016) and post-doc (2016-2018) at the University of Oxford under the guidance of Prof. Gil McVean.  I worked on combining long read and short read data to improve de novo assembly.  I applied these methods to de novo mutation discovery in malaria experimental crosses.
+  Prior to this, I was a DPhil student (2011-2016) and post-doc (2016-2018) at the University of Oxford under the guidance of Prof. Gil McVean.  I worked on combining long-read and short-read data to improve de novo assembly.  I applied these methods to de novo mutation discovery in malaria experimental crosses.
 
-# Experience Section
-experience_title: Selected Publications
+content:
+  - title: Software
+    layout: list
+    content:
+      - layout: top-middle
+        title: Long read pipelines
+        link: github.com/broadinstitute/long-read-pipelines
+        description: | # this will include new lines to allow paragraphs
+          A set of cloud-based workflows for processing (mostly human) whole genome and transcriptome long read data.  Includes GPU-enabled basecalling, error correction, alignment, variant calling, de novo assembly, etc.  Constantly in-process and improving.
 
-# Projects Section
-# projects_title: Projects
+      - layout: top-middle
+        title: Corticall
+        link: github.com/mcveanlab/cortexjdk
+        description: | # this will include new lines to allow paragraphs
+          Corticall uses long read data on parents to improve de novo assemblies of short read data on children, and applies a recombination-aware alignment model to discover point, indel, and structural variants.  Corticall thus enables discovery of mutations in regions of the genome typically inaccessible to short reads alone.  It is part of the CortexJDK package which provides a Java API for the access and manipulation of Cortex/McCortex multi-color linked de Bruijn graphs.
 
-# Education Section
-education_title: Software
 
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in extreme genomic diversity, graphical models, and software engineering, some of my other interests are:
-   - Banjo
-   - Sculling
-   - Making the perfect iced latte
-   - [That this exists](https://www.youtube.com/watch?v=76LcgX8Gg-0&ab_channel=KyleAthayde)
+  - title: Selected publications
+    layout: list
+    content:
+      - layout: left
+        description: |
+
+    <mark>A.M. Al'Khafaji, J.T. Smith, K.V. Garimella, M. Babadi</mark>, M. Sade-Feldman, M. Gatzen, S. Sarkizova, M.A. Schwartz, V. Popic, E.M. Blaum, A. Day, M. Costello, T. Bowers, S. Gabriel, E. Banks, A.A. Philippakis, G.M. Boland, P.C. Blainey, N. Hacohen, "High-throughput RNA isoform sequencing using programmable cDNA concatenation", bioRxiv 2021.10.01.462818; doi: https://doi.org/10.1101/2021.10.01.462818
+
+    <mark>K.V. Garimella</mark>, Z. Iqbal, M.A. Krause, S. Campino, M. Kekre, E. Drury, D. Kwiatkowski, J.M. Sá, T.E. Wellems, G. McVean, “Detection of simple and complex de novo mutations with multiple reference sequences.” Genome research, 30(8), pp.1154-1169., Aug. 2020
+
+    <mark>I. Turner, K. V. Garimella</mark>, Z. Iqbal, and G. McVean, “Integrating long-range connectivity information into de Bruijn graphs.,” Bioinformatics, vol. 34, no. 15, pp. 2556–2565, Aug. 2018.
+
+    M. Cretu-Stancu, K. V. Garimella, M. Fromer, Genome of the Netherlands consortium, K. E. Samocha, B. M. Neale, M. J. Daly, E. Banks, M. A. DePristo, P. I. de Bakker, M. A. Swertz, L. C. Francioli, W. P. Kloosterman, C. M. van Duijn, and D. I. Boomsma, “A framework for the detection of de novo mutations in family-based sequencing data.,” Eur. J. Hum. Genet., vol. 25, no. 2, pp. 227–233, Feb. 2017.
+
+    <mark>A. Kiezun, K. Garimella, R. Do, N. O. Stitziel</mark>, B. M. Neale, P. J. McLaren, N. Gupta, P. Sklar, P. F. Sullivan, J. L. Moran, C. M. Hultman, P. Lichtenstein, P. Magnusson, T. Lehner, Y. Y. Shugart, A. L. Price, P. I. W. de Bakker, S. M. Purcell, and S. R. Sunyaev, “Exome sequencing and the genetic basis of complex traits.,” Nat Genet, vol. 44, no. 6, pp. 623–630, Jun. 2012.
+
+    T. J. Dixon-Salazar, J. L. Silhavy, N. Udpa, J. Schroth, S. Bielas, A. E. Schaffer, J. Olvera, V. Bafna, M. S. Zaki, G. H. Abdel-Salam, L. A. Mansour, L. Selim, S. Abdel-Hadi, N. Marzouki, T. Ben-Omran, N. A. Al-Saana, F. M. Sonmez, F. Celep, M. Azam, K. J. Hill, A. Collazo, A. G. Fenstermaker, G. Novarino, N. Akizu, K. V. Garimella, C. Sougnez, C. Russ, S. B. Gabriel, and J. G. Gleeson, “Exome sequencing can improve diagnosis and alter patient management.,” Science Translational Medicine, vol. 4, no. 138, pp. 138ra78–138ra78, Jun. 2012.
+
+    M. A. DePristo, E. Banks, R. Poplin, K. V. Garimella, J. R. Maguire, C. Hartl, A. A. Philippakis, G. del Angel, M. A. Rivas, M. Hanna, A. McKenna, T. J. Fennell, A. M. Kernytsky, A. Y. Sivachenko, K. Cibulskis, S. B. Gabriel, D. Altshuler, and M. J. Daly, “A framework for variation discovery and genotyping using next-generation DNA sequencing data.,” Nat Genet, vol. 43, no. 5, pp. 491–498, May 2011.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in extreme genomic diversity, graphical models, and software engineering, some of my other interests are:
+      - Banjo
+      - Sculling
+      - Making the perfect iced latte
+      - [That this exists](https://www.youtube.com/watch?v=76LcgX8Gg-0&ab_channel=KyleAthayde)
 
 # Footer
-footer_show_references: false
+footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
